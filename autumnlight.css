@@ -35,6 +35,7 @@ small,
 .commentmetadata {
 	color: #a2c7ca;
 }
+
 table,
 td,
 th {
@@ -102,6 +103,7 @@ a.post-edit-link:hover,
 }
 .page_title {
 	color: #dda528;
+//	color: #a4461c;
 }
 .page_title a,
 .page_title a:visited {
@@ -116,7 +118,7 @@ a.post-edit-link:hover,
 	background-color: #a4461c;
 }
 .post-date {
-	background-image:url('images/cloud-autumn.png');
+//	background-image:url('images/cloud-autumn.png');
 	color: #a4461c;
 }
 .post-date a,
@@ -164,7 +166,8 @@ a.post-edit-link:hover,
 	left: 80px;
 }
 .tagline {
-	color: #a2c7ca;
+	color: #dda528;
+//	color: #a2c7ca;
 }
 .title,
 .title a,
@@ -201,3 +204,8 @@ a.post-edit-link:hover,
 	color: #fff;
 	background-color: #a4461c;
 }
+/* Added this */
+.entry table, .entry td, .entry th {
+	border: 1px none #333; //a4461c
+}
+

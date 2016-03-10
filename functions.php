@@ -47,7 +47,16 @@ function bnd_sidebars() {
 		'after_widget' => '</li>',
 		'before_title' => '<h3 class="widgettitle">',
 		'after_title' => '</h3>',
-		) );
+		) ); 
+
+	register_sidebar( array(
+		'id' => 'sidebar-menu',
+		'name' => __( 'Menu Sidebar', 'brand-new-day' ),
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widgettitle">',
+		'after_title' => '</h3>',
+		) ); 
 
 	register_sidebar( array(
 		'id' => 'footer-sidebar1',
@@ -76,6 +85,14 @@ function bnd_sidebars() {
 	register_sidebar( array(
 		'id' => 'footer-sidebar4',
 		'name' => __( 'Footer Sidebar 4', 'brand-new-day' ),
+		'before_widget' => '<li id="%1$s" class="footer-widget widget %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="footer-widgettitle">',
+		'after_title' => '</h3>',
+	) );
+	register_sidebar( array(
+		'id' => 'footer-sidebar5',
+		'name' => __( 'Footer Sidebar 5', 'brand-new-day' ),
 		'before_widget' => '<li id="%1$s" class="footer-widget widget %2$s">',
 		'after_widget' => '</li>',
 		'before_title' => '<h3 class="footer-widgettitle">',
