@@ -15,7 +15,6 @@ get_header();
 					<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
 				</div>
 			<h2 class="page_title"><?php the_title(); ?></h2>
-			<small><span class="post-author"><?php _e( 'by' , 'brand-new-day' ); ?> <?php the_author() ?></span> <?php _e( 'on' , 'brand-new-day' ); ?> <?php the_time( get_option( 'date_format' ) ); ?></small>
 
 			<div class="entry">
 				<?php the_content('<p>' . __( 'Read the rest of this entry' , 'brand-new-day' ) . ' &raquo;</p>'); ?>
@@ -25,8 +24,6 @@ get_header();
 				<p class="postmetadata clear"><?php _e( 'Posted in' , 'brand-new-day' ) ?> <?php the_category(', '); ?></p>
 				<?php the_tags( '<p class="postmetadata clear">' . __( 'Tags:', 'brand-new-day' ) . ' ', ', ', '</p>'); ?>
 				<div class="edit-link"><?php edit_post_link( __( 'Edit this entry', 'brand-new-day' ) , '', ''); ?></div>
-				
-				<?php comments_template(); ?>
 				
 			</div>
 			
