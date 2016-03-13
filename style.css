@@ -75,6 +75,7 @@ th {
 	z-index: 15;
 	margin-bottom: 50px;
 	min-height: 560px;
+	text-align: justify;
 }
 .edit-link {
 	text-align: center;
